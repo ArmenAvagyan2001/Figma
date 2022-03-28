@@ -1,0 +1,533 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: flexbox;
+  min-width: 1500px;
+  margin: 0px;
+  padding: 0px;
+}
+body .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .menu .prevlink {
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #EA8A7F;
+}
+body .menu .prevlink:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+}
+body .menu .ul-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .menu .ul-1 li {
+  list-style: none;
+  margin-right: 30px;
+}
+body .menu .ul-1 li a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+body .menu .ul-1 li a a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+}
+body .menu .ul-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .menu .ul-2 li {
+  list-style: none;
+  margin-right: 20px;
+}
+body .menu .ul-2 li a {
+  color: black;
+  text-decoration: none;
+}
+body .menu .ul-2 li a span {
+  font-size: 18px;
+}
+body .menu .ul-2 li a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+}
+body .firstdiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .firstdiv div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .firstdiv div .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 600px;
+}
+body .firstdiv div .div1 div {
+  display: block;
+}
+body .firstdiv div .div1 div h1 {
+  font-weight: 400;
+  font-size: 36px;
+  width: 300px;
+}
+body .firstdiv div .div1 div button {
+  width: 300px;
+  height: 50px;
+  background-color: #3B525B;
+  color: white;
+  border-radius: 5px;
+}
+body .firstdiv div .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .firstdiv div .div2 img {
+  width: 870px;
+}
+body .seconddiv h1 {
+  text-align: center;
+  padding-top: 70px;
+  font-size: 36px;
+  font-weight: 400;
+}
+body .seconddiv div {
+  margin: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .seconddiv div .div1 {
+  padding: 0px;
+  margin: 0px;
+  display: block;
+}
+body .seconddiv div .div1 .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/img2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px;
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 10px;
+}
+body .seconddiv div .div1 .div1 h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  opacity: 0.7;
+}
+body .seconddiv div .div1 .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/img3.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+body .seconddiv div .div1 .div2 h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 40px;
+  background-color: white;
+  opacity: 0.7;
+}
+body .seconddiv div .div2 {
+  display: block;
+  padding: 0px;
+  margin: 0px;
+}
+body .seconddiv div .div2 .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/img4.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 400px;
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-bottom: 10px;
+}
+body .seconddiv div .div2 .div1 h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.7;
+}
+body .seconddiv div .div2 .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-image: url(../img/img5.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 500px;
+  height: 300px;
+  margin: 0%;
+  padding: 0%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+body .seconddiv div .div2 .div2 h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  background-color: white;
+  opacity: 0.7;
+}
+body .treediv {
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #3B525B;
+}
+body .treediv .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 100px;
+}
+body .treediv .div1 h1 {
+  width: 300px;
+  margin: 50px;
+}
+body .treediv .div1 h1 a {
+  color: white;
+  text-decoration: none;
+  font-size: 72px;
+  font-weight: 400;
+}
+body .treediv .div1 h1 a:hover {
+  text-decoration: underline;
+  -webkit-text-decoration-color: blue;
+          text-decoration-color: blue;
+}
+body .treediv .div2 {
+  margin-right: 50px;
+  width: 220px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .treediv .div2 div {
+  text-align: center;
+  color: white;
+}
+body .treediv .div2 div .p1 {
+  font-size: 18px;
+}
+body .treediv .div2 div .p2 {
+  font-size: 18px;
+  text-align: start;
+}
+body .treediv .div2 div .p3 {
+  font-size: 16px;
+  text-align: start;
+  line-height: 30px;
+  width: 180px;
+}
+body .fourdiv h1 {
+  text-align: center;
+  font-weight: 400;
+  padding: 70px;
+}
+body .fourdiv div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+body .fourdiv div .div1 {
+  background-image: url(../img/img6.jpg);
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 350px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+body .fourdiv div .div1 h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  opacity: 0.7;
+}
+body .fourdiv div .div2 {
+  background-image: url(../img/img7.jpg);
+  background-repeat: no-repeat;
+  width: 700px;
+  height: 350px;
+  margin-right: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+body .fourdiv div .div2 h1 {
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  height: 30px;
+  background-color: white;
+  opacity: 0.7;
+}
+body .fourdiv div .div3 {
+  background-image: url(../img/img8.jpg);
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 400px;
+}
+body .fivediv h1 {
+  text-align: center;
+  font-weight: 400;
+  margin: 70px;
+}
+body .fivediv .div1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .fivediv .div1 div {
+  display: block;
+  margin: 10px;
+}
+body .fivediv .div1 div img {
+  width: 350px;
+}
+body .fivediv .div2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+body .fivediv .div2 button {
+  width: 200px;
+  height: 50px;
+}
+body .sixdiv {
+  background-color: #3B525B;
+  height: 600px;
+}
+body .sixdiv h1 {
+  color: white;
+  text-align: center;
+  padding: 70px;
+}
+body .sixdiv .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .sixdiv .row .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  width: 500px;
+  height: 300px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+body .sixdiv .row .col .col-1 {
+  margin: 30px;
+}
+body .sixdiv .row .col .col-2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+body .sixdiv .row .col .col-2 .col-2-1 {
+  width: 250px;
+  display: block;
+}
+body .sixdiv .row .col .col-2 .col-2-1 .img1 {
+  float: left;
+}
+body .sixdiv .row .col .col-2 .col-2-1 .img2 {
+  float: right;
+}
+body .sevendiv {
+  height: 400px;
+  background-color: #3B525B;
+  padding-top: 80px;
+  padding-left: 150px;
+  display: -ms-grid;
+  display: grid;
+      grid-template-areas: "a b c c d";
+}
+body .sevendiv .grid-item {
+  color: white;
+  margin-right: 10px;
+}
+body .sevendiv .grid-item p {
+  font-size: 14px;
+  font-weight: 300;
+}
+body .sevendiv .grid-item:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 2;
+  grid-area: c;
+}
+body .sevendiv .grid-item-1 {
+  width: 300px;
+  color: white;
+}
+body .sevendiv .grid-item-1 p {
+  font-size: 14px;
+  font-weight: 300;
+}
+body .sevendiv .grid-item-1 input {
+  width: 280px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #3B525B;
+  border: 1px solid #EA8A7F;
+}
+body .sevendiv .grid-item-1 input::-webkit-input-placeholder {
+  padding: 10px;
+  color: white;
+}
+body .sevendiv .grid-item-1 input::-moz-placeholder {
+  padding: 10px;
+  color: white;
+}
+body .sevendiv .grid-item-1 input:-ms-input-placeholder {
+  padding: 10px;
+  color: white;
+}
+body .sevendiv .grid-item-1 input::-ms-input-placeholder {
+  padding: 10px;
+  color: white;
+}
+body .sevendiv .grid-item-1 input::placeholder {
+  padding: 10px;
+  color: white;
+}
+body .sevendiv .grid-item-1 button {
+  margin: 10px;
+  margin-left: 0px;
+  width: 280px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #EA8A7F;
+  color: white;
+}
